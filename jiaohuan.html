@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<script type="text/javascript">
+	window.onload = function() {
+		 var oInpt = document.getElementById('dix')
+		 var dInpt = document.getElementById('dix1')
+		 var oBtn = document.getElementById('btn')
+		 
+		 
+
+
+		 btn['onclick'] = function() {
+
+		 	var tmp = oInpt.value
+		 	oInpt.value = dInpt.value
+		 	dInpt.value = tmp
+
+		 }
+
+
+	}
+
+</script>
+<body>	
+	<input 	type="text" value="1" id="dix">
+	<input type="text" value="2" id="dix1">
+	<button id="btn">交换</button>
+</body>
+</html>
